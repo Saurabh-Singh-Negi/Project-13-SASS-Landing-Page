@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Blaka+Hollow&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+/* navbar */
+
+body {
+    font-family: Poppins;
+}
+
+header {
+    height: 700px;
+    background-color: #713DCC;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+    padding-top: 2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.navbar-links:hover {
+    color: aqua;
+    border-bottom: 1px solid rgb(246, 126, 113);
+}
+
+.trial-btn {
+    background-color: #559de0;
+    border: none;
+    padding: .8rem;
+    color: #fff;
+    font-size: 1rem
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.header-heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* benefits-section */
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem;
+}
+
+.benefit-info  h1 {
+    margin-bottom: 2rem;
+}
+
+.benefit-info  h2, p {
+    margin-bottom: 1rem;
+}
+
+.benefit-info > p {
+    max-width: 350px;
+}
+
+/* Features */
+
+
+.features-heading {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+.card-features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 2rem;
+}
+
+.card > img {
+    
+    margin-bottom: 2rem;
+    
+}
+
+.card-img-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 70px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.345);
+    
+}
+
+
+.card h3, p {
+    cursor: pointer;
+}
+
+
+.card-img-svg img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    height: 200px;
+    max-width: 200px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.233);
+    
+}

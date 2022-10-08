@@ -89,6 +89,7 @@ nav {
 /* Features */
 
 
+
 .features-heading {
     margin: auto;
     text-align: center;
@@ -103,7 +104,6 @@ nav {
 }
 
 .card > img {
-    
     margin-bottom: 2rem;
     
 }
@@ -152,5 +152,29 @@ nav {
 }
 
 @media screen and (max-width:800px){
-    
+    .header-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .benefits {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .benefit-info > p {
+        max-width: 100%;
+    }
+
+    .card-features {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

@@ -12,7 +12,6 @@ body {
 }
 
 header {
-    height: 700px;
     background-color: #713DCC;
     color: #fff;
 }
@@ -28,6 +27,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
 }
 
 .navbar-links {
@@ -138,5 +142,15 @@ nav {
     height: 200px;
     max-width: 200px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.233);
+    
+}
+
+@media screen and (max-width:900px){
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px){
     
 }
